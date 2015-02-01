@@ -37,7 +37,7 @@ $.preload([
 	'images/button.png',
 	'images/logo.svg',
 	'sounds/button.mp3',
-	'files/document.pdf',
+	'files/document.pdf'
 ])
 ```
 
@@ -55,7 +55,7 @@ $.preload([
 	'images/button.png',
 	'images/logo.svg',
 	'sounds/button.mp3',
-	'files/document.pdf',
+	'files/document.pdf'
 ]).then(function() {
 	console.debug("All done.")
 }, function() {
