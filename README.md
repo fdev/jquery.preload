@@ -22,7 +22,7 @@ Preloading will only work if assets can be cached by the browser. This way, when
 
 Import this plugin after importing the jQuery library:
 
-```
+```html
 <script type="text/javascript" src="jquery.min.js"></script>
 <script type="text/javascript" src="jquery.preload.min.js"></script>
 ```
@@ -31,7 +31,7 @@ Import this plugin after importing the jQuery library:
 
 You can pass an array of assets.
 
-```
+```javascript
 $.preload([
 	'images/background.jpg',
 	'images/button.png',
@@ -49,7 +49,7 @@ The preloader returns a promise you can use to execute a function when:
 * an asset failed to load
 * there is progress
 
-```
+```javascript
 $.preload([
 	'images/background.jpg',
 	'images/button.png',
