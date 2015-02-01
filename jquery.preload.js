@@ -9,9 +9,8 @@
 	function load(uri, callback) {
 		var xhr = new XMLHttpRequest()
 		xhr.onreadystatechange = function() {
-			if (xhr.readyState == 4) {
+			if (xhr.readyState == 4)
 				callback(xhr.status == 200)
-			}
 		}
 		xhr.open('GET', uri, true)
 		xhr.send(null)
