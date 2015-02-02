@@ -5,7 +5,7 @@ A tiny jQuery plugin for preloading assets (images, sounds, anything).
 ## Description
 
 The purpose of this plugin is to provide preloading functionality with a tiny footprint.
-When minified the plugin is a mere **391 bytes**.
+When minified the plugin is a mere 391 bytes (**290 bytes** when gzipped).
 
 ## Browser support
 
